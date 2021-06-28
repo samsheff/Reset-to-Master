@@ -11,9 +11,7 @@
  (function() {
      'use strict';
 
-         document.querySelectorAll("span.user-select-contain").forEach(function (e) {
-                 e.innerText = e.innerText.replace(" main", " master");
-                     });
-                     })();
-         })
- })
+     document.querySelectorAll("span.user-select-contain").forEach(function (e) {
+         e.innerText = e.innerText.replace(" main", " master");
+     });
+ })();
